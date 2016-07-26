@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "946582880186",
+    "project_id": "balloon-popper-65383621"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946582880186:android:e0be01178903dcd6",
+        "android_client_info": {
+          "package_name": "com.davidgassner.android.balloonpopper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946582880186-l7k3qs0u4e5gbr1ch4r8lhq9spuh1sed.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.davidgassner.android.balloonpopper",
+            "certificate_hash": "FFDA120786749F57C7E1015F0BBF80BF9E54AF6F"
+          }
+        },
+        {
+          "client_id": "946582880186-3gah8v8nfm5c8k35l4qrg7m13ah5fm5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjKKv5DCMT8_2kU_FzgF81QSx7bekXhHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
