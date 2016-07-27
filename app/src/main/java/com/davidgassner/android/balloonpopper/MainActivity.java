@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -303,10 +304,11 @@ public class MainActivity extends AppCompatActivity
 
 //          Manage high score locally
             if (PreferencesHelper.isTopScore(this, mScore)) {
+                String message = String.format(getString(R.string.your_top_score_is), mScore);
                 PreferencesHelper.setTopScore(this, mScore);
                 MyAlertDialog dialog = MyAlertDialog.newInstance(
                         getString(R.string.new_top_score),
-                        String.format(getString(R.string.your_top_score_is), mScore));
+                        message);
                 dialog.show(getSupportFragmentManager(), null);
             }
 

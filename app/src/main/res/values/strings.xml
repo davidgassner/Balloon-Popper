@@ -7,11 +7,11 @@
     <string name="level_label">Level:</string>
     <string name="more_levels_than_ever">More Levels than Ever!</string>
     <string name="new_top_score">New Top Score!</string>
-    <string name="your_top_score_is">Top score: %o</string>
-    <string name="you_completed_n_levels">Levels completed: %o</string>
+    <string name="your_top_score_is">Top score: %s</string>
+    <string name="you_completed_n_levels">Levels completed: %s</string>
     <string name="game_over">Game over!</string>
     <string name="missed_that_one">Missed that one!</string>
-    <string name="you_finished_level_n">You finished level %o!</string>
+    <string name="you_finished_level_n">You finished level %s!</string>
     <string name="popping_pin">Popping Pin</string>
 
 </resources>
